@@ -1,0 +1,20 @@
+.page_apple{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 16px;
+    row-gap: 16px;
+    margin-top: 0px;
+    background-image: url('../../images/AppleBackgournd.jpeg');
+}
+
+.card{
+width:320px;
+
+}
+
+
+.card-body{
+    font-weight: bold;
+}

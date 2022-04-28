@@ -1,0 +1,44 @@
+.page_navigation{
+    background-image: url('../../images/backgroundNews.png');
+}
+
+
+
+.title_navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.links_navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10%;
+    margin-top: 30px;
+    box-shadow: 1px 1px 1px 1px;
+    
+}
+
+
+
+.links_navigation > :LINK{
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid;
+    border-radius: 50px;
+    padding: 6px;
+    font-weight: bold;
+    
+}
+
+.links_navigation > :hover{
+    background: rgb(196, 196, 196);
+    color: white;
+}
+
